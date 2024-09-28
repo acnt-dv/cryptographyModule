@@ -1,7 +1,7 @@
 import fs from "node:fs";
 
 /**
- *
+ * read file content as binary
  * @param filePath absolute file path
  * @returns {string} its buffer of read file
  */
