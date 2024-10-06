@@ -20,7 +20,7 @@ import crypto from "crypto";
  * Summary
  * In essence, RSA key pairs allow secure communication and digital signatures, enabling confidentiality and authenticity in data transmission.
  *
- * @returns {{privateKey: KeyObject, publicKey: KeyObject}}
+ * @returns {{privateKey, publicKey}}
  */
 export const generateRsaKeyPair = (keyLength = 1024) => {
     try {
