@@ -12,8 +12,8 @@ const moduleWorker = async () => {
         const userInput = await readLine();
 
         const cipher = encrypt(userInput)
-        console.log(cipher);
-        console.log(decrypt(cipher.encryptedData, cipher.key, cipher.iv));
+        console.info(cipher);
+        console.info(decrypt(cipher.encryptedData, cipher.key, cipher.iv));
 
     } catch (error) {
         console.error(error);
