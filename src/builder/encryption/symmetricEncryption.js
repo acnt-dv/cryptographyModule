@@ -6,8 +6,13 @@ import crypto from "crypto";
  * of pseudo-random data that gets XORed with the plaintext. This allows for efficient encryption and decryption,
  * as you can process data in parallel. It's also important to use a unique initialization vector (IV) for each encryption
  * session to ensure security.
+ *
  * CTR stands for "Counter." In this mode, a counter value is combined with a nonce or initialization vector (IV)
  * to generate a unique stream of data for encryption.
+ *
+ * CBC stands for "Cipher Block Chaining." In this mode, each block of plaintext is XORed with the previous ciphertext
+ * block before being encrypted. This creates a dependency between blocks, enhancing security by ensuring that identical
+ * plaintext blocks produce different ciphertext blocks, provided the same key is used.
  *
  * @param plainText original data
  * @param options accepts key and initial vector
