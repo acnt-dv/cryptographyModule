@@ -48,17 +48,31 @@ console.log(`Base64 decoded: ${decodedContent}`);
 const buffer = readFileContent('//path'); 
 ```
 
+## encryptDataWithAES
+This method encrypts data using the AES (Advanced Encryption Standard) algorithm with a specified key and initialization vector (IV).
+## decryptDataWithAES
+This method decrypts AES-encrypted data using the same key and IV that were used for encryption.
+
+```javascript
+const userInput = await readLine();
+
+const cipher = encrypt(userInput)
+console.info(cipher);
+console.info(decrypt(cipher.encryptedData, cipher.key, cipher.iv));
+```
+
+
 ## signDataWithRSA
 Purpose:
 The signDataWithRSA method signs a piece of data using the RSA algorithm and a private key. This ensures data integrity and authenticity by generating a digital signature that can later be verified using the corresponding public key.
 
 ```javascript
 const {privateKey, publicKey} = generateRsaKeyPair(2048);
-const signature = signData(userInput, privateKey);
+const signature = signData(DataToSign, privateKey);
 console.log(signature.toString('base64'));
 ```
 
-Explanation:
+#### Explanation:
 crypto.createSign(algorithm): Initializes a new Sign object for the specified hashing algorithm (defaulting to 'sha256').
 sign.update(data): Adds the data to be signed to the Sign object. You can update the sign object multiple times if the data is large.
 sign.end(): Signals that the input data is complete, preparing it for signing.
