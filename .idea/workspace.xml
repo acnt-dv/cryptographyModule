@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="291d1a73-1fbb-4750-af6e-888abf709472" name="Default Changelist" comment="[initial] - .">
+      <change afterPath="$PROJECT_DIR$/src/builder/sign/signData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/builder/utils/readFileContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/builder/utils/readFileContent.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" show_ignored="true" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;acnt-dv&quot;
+  }
+}</component>
+  <component name="GitHubPullRequestState">{
+  &quot;prStates&quot;: [
+    {
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDOMvh_KM56_TiY&quot;,
+        &quot;number&quot;: 1
+      },
+      &quot;lastSeen&quot;: 1725976753910
+    },
+    {
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDOMvh_KM57im-t&quot;,
+        &quot;number&quot;: 2
+      },
+      &quot;lastSeen&quot;: 1726400496523
+    }
+  ]
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/acnt-dv/cryptographyModule.git&quot;,
+    &quot;accountId&quot;: &quot;120034b7-b86b-434c-a117-d38d79d2e6df&quot;
+  },
+  &quot;recentNewPullRequestHead&quot;: {
+    &quot;server&quot;: {
+      &quot;useHttp&quot;: false,
+      &quot;host&quot;: &quot;github.com&quot;,
+      &quot;port&quot;: null,
+      &quot;suffix&quot;: null
+    },
+    &quot;owner&quot;: &quot;acnt-dv&quot;,
+    &quot;repository&quot;: &quot;cryptographyModule&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/main.js" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2lsX9lKO5eCqyOJQ8vQ5h0y6IbJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "#6 on dev",
+    "javascript.nodejs.core.library.configured.version": "20.16.0",
+    "javascript.nodejs.core.library.typings.version": "20.16.11",
+    "last_opened_file_path": "C:/Users/d.sajedi/Projects/Node/cryptographyModule/src/builder/decryption",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.test.executor": "Run",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2024.2.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\d.sajedi\Projects\Node\cryptographyModule\src\builder\decryption" />
+      <recent name="C:\Users\d.sajedi\Projects\Node\cryptographyModule\src\builder\encryption" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\d.sajedi\Projects\Node\cryptographyModule\src\builder\utils" />
+      <recent name="C:\Users\d.sajedi\Projects\Node\cryptographyModule\src\builder\hash" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.test" />
+        <item itemvalue="npm.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-WS-242.21829.149" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="291d1a73-1fbb-4750-af6e-888abf709472" name="Default Changelist" comment="" />
+      <created>1725969608100</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1725969608100</updated>
+      <workItem from="1725969617043" duration="365000" />
+      <workItem from="1725970874089" duration="10953000" />
+      <workItem from="1726045981658" duration="9022000" />
+      <workItem from="1726389045417" duration="22711000" />
+      <workItem from="1727166195008" duration="1880000" />
+      <workItem from="1727505415170" duration="19320000" />
+      <workItem from="1728199460210" duration="3683000" />
+      <workItem from="1728894902400" duration="1696000" />
+    </task>
+    <task id="LOCAL-00001" summary="[initial] - add README.md">
+      <option name="closed" value="true" />
+      <created>1725971226608</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1725971226608</updated>
+    </task>
+    <task id="LOCAL-00002" summary="[initial] - build structures of node project">
+      <option name="closed" value="true" />
+      <created>1725971671965</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1725971671965</updated>
+    </task>
+    <task id="LOCAL-00003" summary="[initial] - start project with version commit">
+      <option name="closed" value="true" />
+      <created>1725971964726</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1725971964726</updated>
+    </task>
+    <task id="LOCAL-00004" summary="[implementation] - implementing hash algorithms SHA256 &amp; SHA512">
+      <option name="closed" value="true" />
+      <created>1725976550541</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1725976550541</updated>
+    </task>
+    <task id="LOCAL-00005" summary="[implementation] - SHA generator completed with crypto module, sha-1 sha-384 added also">
+      <option name="closed" value="true" />
+      <created>1726038544795</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1726038544796</updated>
+    </task>
+    <task id="LOCAL-00006" summary="[implementation] - minor changes">
+      <option name="closed" value="true" />
+      <created>1726038750731</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1726038750731</updated>
+    </task>
+    <task id="LOCAL-00007" summary="[implementation] - minor changes">
+      <option name="closed" value="true" />
+      <created>1726040817398</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1726040817398</updated>
+    </task>
+    <task id="LOCAL-00008" summary="[improvements] - minor improvements">
+      <option name="closed" value="true" />
+      <created>1726044649570</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1726044649570</updated>
+    </task>
+    <task id="LOCAL-00009" summary="[improvements] - minor improvements">
+      <option name="closed" value="true" />
+      <created>1726046020049</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1726046020049</updated>
+    </task>
+    <task id="LOCAL-00010" summary="[improvements] - minor improvements">
+      <option name="closed" value="true" />
+      <created>1726046359539</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1726046359539</updated>
+    </task>
+    <task id="LOCAL-00011" summary="[improvements] - minor improvements in error handling">
+      <option name="closed" value="true" />
+      <created>1726050512127</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1726050512127</updated>
+    </task>
+    <task id="LOCAL-00012" summary="[improvements] - one mistake removed">
+      <option name="closed" value="true" />
+      <created>1726051118134</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1726051118134</updated>
+    </task>
+    <task id="LOCAL-00013" summary="[completed] - SHA generation implemented and tested">
+      <option name="closed" value="true" />
+      <created>1726051303502</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1726051303503</updated>
+    </task>
+    <task id="LOCAL-00014" summary="[implementation] - base64 converter implementing and tested.">
+      <option name="closed" value="true" />
+      <created>1726389301599</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1726389301599</updated>
+    </task>
+    <task id="LOCAL-00015" summary="[improvement] - improvements">
+      <option name="closed" value="true" />
+      <created>1726391976515</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1726391976515</updated>
+    </task>
+    <task id="LOCAL-00016" summary="[improvement] - minor improvements">
+      <option name="closed" value="true" />
+      <created>1726392375200</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1726392375200</updated>
+    </task>
+    <task id="LOCAL-00017" summary="[improvement] - minor improvements">
+      <option name="closed" value="true" />
+      <created>1726392548940</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1726392548940</updated>
+    </task>
+    <task id="LOCAL-00018" summary="[improvement] - minor improvements">
+      <option name="closed" value="true" />
+      <created>1726396817764</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1726396817764</updated>
+    </task>
+    <task id="LOCAL-00019" summary="[implementation] - implementing utils (reading file content buffer)">
+      <option name="closed" value="true" />
+      <created>1726397927615</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1726397927615</updated>
+    </task>
+    <task id="LOCAL-00020" summary="[improvements] - minor improvements">
+      <option name="closed" value="true" />
+      <created>1726399201472</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1726399201472</updated>
+    </task>
+    <task id="LOCAL-00021" summary="[improvements] - minor improvements">
+      <option name="closed" value="true" />
+      <created>1726399921329</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1726399921329</updated>
+    </task>
+    <task id="LOCAL-00022" summary="[implement] - some utils implemented, base64 validator">
+      <option name="closed" value="true" />
+      <created>1726489554881</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1726489554881</updated>
+    </task>
+    <task id="LOCAL-00023" summary="[implement] - symmetric encryption implemented, AES">
+      <option name="closed" value="true" />
+      <created>1727508783502</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1727508783502</updated>
+    </task>
+    <task id="LOCAL-00024" summary="[implement] - documentation added">
+      <option name="closed" value="true" />
+      <created>1727508988657</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1727508988657</updated>
+    </task>
+    <task id="LOCAL-00025" summary="[implement] - decryption of symmetric AES implemented">
+      <option name="closed" value="true" />
+      <created>1727509772674</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1727509772674</updated>
+    </task>
+    <task id="LOCAL-00026" summary="[implement] - AES symmetric encryption and decryption implemented and tested successfully.">
+      <option name="closed" value="true" />
+      <created>1727513225157</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1727513225157</updated>
+    </task>
+    <task id="LOCAL-00027" summary="[improvements] - minor improvements in error handling">
+      <option name="closed" value="true" />
+      <created>1727513385807</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1727513385807</updated>
+    </task>
+    <task id="LOCAL-00028" summary="[improvements] - minor improvements">
+      <option name="closed" value="true" />
+      <created>1727513440817</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1727513440817</updated>
+    </task>
+    <task id="LOCAL-00029" summary="[improvements] - nothing to share">
+      <option name="closed" value="true" />
+      <created>1727514004339</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1727514004339</updated>
+    </task>
+    <task id="LOCAL-00030" summary="[improvements] - nothing to share">
+      <option name="closed" value="true" />
+      <created>1727514785790</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1727514785790</updated>
+    </task>
+    <task id="LOCAL-00031" summary="[implement] - RSA key pair generation and encryption and decryption implemented and passed.">
+      <option name="closed" value="true" />
+      <created>1727595987405</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1727595987405</updated>
+    </task>
+    <task id="LOCAL-00032" summary="[implement] - RSA key pair generation and encryption and decryption implemented and passed.">
+      <option name="closed" value="true" />
+      <created>1727596696168</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1727596696168</updated>
+    </task>
+    <task id="LOCAL-00033" summary="[implement] - RSA key pair generation and encryption and decryption implemented and passed.">
+      <option name="closed" value="true" />
+      <created>1727597884576</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1727597884576</updated>
+    </task>
+    <task id="LOCAL-00034" summary="[implement] - RSA key pair generation and encryption and decryption implemented and passed.">
+      <option name="closed" value="true" />
+      <created>1728199672397</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1728199672397</updated>
+    </task>
+    <task id="LOCAL-00035" summary="[implement] - RSA key pair generation and encryption and decryption implemented and passed.">
+      <option name="closed" value="true" />
+      <created>1728200150684</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1728200150684</updated>
+    </task>
+    <task id="LOCAL-00036" summary="[initial] - .">
+      <option name="closed" value="true" />
+      <created>1728895035605</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1728895035605</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="212acfc5-1278-41ee-9fa5-28b5c0e03b4c" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="212acfc5-1278-41ee-9fa5-28b5c0e03b4c">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="range">
+                    <value>
+                      <list>
+                        <option value="origin/dev..origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="dev" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[initial] - add README.md" />
+    <MESSAGE value="[initial] - build structures of node project" />
+    <MESSAGE value="[initial] - start project with version commit" />
+    <MESSAGE value="[implementation] - implementing hash algorithms SHA256 &amp; SHA512" />
+    <MESSAGE value="[implementation] - SHA generator completed with crypto module, sha-1 sha-384 added also" />
+    <MESSAGE value="[implementation] - minor changes" />
+    <MESSAGE value="[improvements] - one mistake removed" />
+    <MESSAGE value="[completed] - SHA generation implemented and tested" />
+    <MESSAGE value="[implementation] - base64 converter implementing and tested." />
+    <MESSAGE value="[improvement] - improvements" />
+    <MESSAGE value="[improvement] - minor improvements" />
+    <MESSAGE value="[implementation] - implementing utils (reading file content buffer)" />
+    <MESSAGE value="[implement] - some utils implemented, base64 validator" />
+    <MESSAGE value="[implement] - symmetric encryption implemented, AES" />
+    <MESSAGE value="[implement] - documentation added" />
+    <MESSAGE value="[implement] - decryption of symmetric AES implemented" />
+    <MESSAGE value="[implement] - AES symmetric encryption and decryption implemented and tested successfully." />
+    <MESSAGE value="[improvements] - minor improvements in error handling" />
+    <MESSAGE value="[improvements] - minor improvements" />
+    <MESSAGE value="[improvements] - nothing to share" />
+    <MESSAGE value="[implement] - RSA key pair generation and encryption and decryption implemented and passed." />
+    <MESSAGE value="[initial] - ." />
+    <option name="LAST_COMMIT_MESSAGE" value="[initial] - ." />
+  </component>
+</project>

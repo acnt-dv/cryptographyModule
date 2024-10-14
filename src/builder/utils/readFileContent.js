@@ -7,7 +7,7 @@ import fs from "node:fs";
  */
 export const readFileContent = filePath => {
     try {
-        fs.existsSync(filePath)
+        fs.existsSync(filePath);
     } catch (error) {
         throw new Error(`Could not read file: ${filePath}\n,Error: ${error}`);
     }
