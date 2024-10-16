@@ -1,7 +1,7 @@
 import {createVerify} from 'crypto';
 
 /**
- *k
+ *
  * @param data
  * @param publicKey
  * @param signature

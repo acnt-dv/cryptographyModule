@@ -6,6 +6,7 @@ import {encrypt} from "./src/builder/encryption/symmetricEncryption.js";
 import {decrypt} from "./src/builder/decryption/symmetricDecryption.js";
 import signData from "./src/builder/sign/signData.js";
 import {generateRsaKeyPair} from "./src/builder/keyPairs/generateKeyPairs.js";
+import verifySignature from "./src/builder/verifySignature/verifySignature.js";
 
 const moduleWorker = async () => {
     try {
@@ -20,6 +21,9 @@ const moduleWorker = async () => {
         const {privateKey, publicKey} = generateRsaKeyPair(2048);
         const signature = signData(userInput, privateKey);
         console.log(signature.toString('base64'));
+
+        const isValid = verifySignature(userInput, publicKey, signature);
+        console.log(isValid);
 
     } catch (error) {
         console.error(error);
