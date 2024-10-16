@@ -78,3 +78,11 @@ sign.update(data): Adds the data to be signed to the Sign object. You can update
 sign.end(): Signals that the input data is complete, preparing it for signing.
 sign.sign(privateKey): Generates the digital signature using the specified private key. The result is a buffer containing the signature.
 This method ensures that the data can be verified later with the corresponding public key, validating both the source and integrity of the data.
+
+## verifySignatureWithRSA
+To verify the signature of data using the RSA public key. This allows the recipient to ensure that the data came from a trusted source and that it has not been modified.
+```javascript
+const {privateKey, publicKey} = generateRsaKeyPair(2048);
+const isValid = verifySignature(userInput, publicKey, signature);
+console.log(isValid);
+```
